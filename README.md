@@ -31,5 +31,10 @@
     - Flag icon is missing
 
 - Functionality
+
   - Translation for German words in the sentence that are not missing - the user should be able to click on a word and see the English translation pop up above it
   - The button at the bottom should say 'continue' until the user selects an answer, then should change to 'check answer'
+ 
+- Components
+
+  - I also would like to have abstracted some of the code out to more broken down components for cleaner and more readable code
