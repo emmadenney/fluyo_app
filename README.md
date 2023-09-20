@@ -9,6 +9,9 @@
 
 ## How It Works:
 
+- Start the app by running: npx expo start
+- Press w to run on the web (or use another device if you prefer)
+
 - User must guess the correct translation of the missing word from four possible options
 - User clicks on the option they believe to be correct and presses 'check answer'
 - If they are correct, the message will say "Great job!"
