@@ -1,0 +1,83 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#73d6f8",
+  },
+  main: {
+    flex: 1,
+    flexDirection: "column",
+    backgroundColor: "#357387",
+    height: "100%",
+    marginTop: 170,
+    borderTopLeftRadius: 30,
+    borderTopRightRadius: 30,
+    fontFamily: "Verdana",
+  },
+  content: {
+    flex: 3,
+    margin: 30,
+    alignItems: "center",
+  },
+  contentText: {
+    color: "#E6F1F4",
+    textAlign: "center",
+    padding: 10,
+    fontWeight: "normal",
+    marginTop: 20,
+    letterSpacing: 1.5,
+  },
+  instruction: {
+    fontSize: 15,
+    paddingTop: 20,
+  },
+  englishWord: {
+    fontWeight: "bold",
+    textDecorationLine: "underline",
+  },
+  optionsContainer: {
+    margin: 40,
+    flexWrap: "wrap",
+    flexDirection: "row",
+    justifyContent: "space-evenly",
+  },
+  option: {
+    padding: 20,
+    margin: 7,
+    borderRadius: 20,
+    backgroundColor: "#E6F1F4",
+    boxShadow: "0px 5px 10px rgba(0, 0, 0, 0.25)",
+    fontSize: 20,
+    letterSpacing: 1,
+    color: "#357387",
+    fontWeight: "bold",
+  },
+  button: {
+    width: "85%",
+    borderRadius: 30,
+    padding: 20,
+    fontWeight: "bold",
+    boxShadow: "0px 5px 10px rgba(0, 0, 0, 0.25)",
+    fontSize: 12,
+    textAlign: "center",
+    position: "absolute",
+    bottom: 45,
+    alignSelf: "center",
+    color: "#ffffff",
+  },
+  subContainer: {
+    flex: 1,
+    borderTopLeftRadius: 30,
+    borderTopRightRadius: 30,
+  },
+  resultText: {
+    fontSize: 15,
+    color: "#E6F1F4",
+    letterSpacing: 1.5,
+    fontWeight: "bold",
+    textAlign: "left",
+    paddingTop: 20,
+    paddingLeft: 35,
+  },
+});
