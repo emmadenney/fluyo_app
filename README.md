@@ -1,13 +1,16 @@
-Fluyo Coding Test
+# Fluyo Coding Test
 
-Tech Stack:
+## Tech Stack:
 
 - React Native
 - Typescript
 - Expo
 - Firebase (Firestore)
 
-How It Works:
+## How It Works:
+
+- Start the app by running: npx expo start
+- Press w to run on the web (or use another device if you prefer)
 
 - User must guess the correct translation of the missing word from four possible options
 - User clicks on the option they believe to be correct and presses 'check answer'
@@ -15,7 +18,7 @@ How It Works:
 - If they are incorrect, they will be shown the correct answer
 - There are 5 exercises in total. When the last has been shown, it resets back to the first exercise.
 
-Things I would like to improve with more time:
+## Things I would like to improve with more time:
 
 - Style
 
@@ -28,5 +31,10 @@ Things I would like to improve with more time:
     - Flag icon is missing
 
 - Functionality
+
   - Translation for German words in the sentence that are not missing - the user should be able to click on a word and see the English translation pop up above it
   - The button at the bottom should say 'continue' until the user selects an answer, then should change to 'check answer'
+ 
+- Components
+
+  - I also would like to have abstracted some of the code out to more broken down components for cleaner and more readable code
