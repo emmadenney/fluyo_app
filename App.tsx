@@ -205,7 +205,15 @@ export default function App() {
               style={[styles.button, { backgroundColor: "#2BBCC3" }]}
               onPress={handleCheckAnswer}
             >
-              CHECK ANSWER
+              <Text
+                style={{
+                  textAlign: "center",
+                  fontWeight: "bold",
+                  color: "#ffffff",
+                }}
+              >
+                CHECK ANSWER
+              </Text>
             </Pressable>
           </View>
         )}
