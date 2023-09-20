@@ -1,13 +1,13 @@
-Fluyo Coding Test
+# Fluyo Coding Test
 
-Tech Stack:
+## Tech Stack:
 
 - React Native
 - Typescript
 - Expo
 - Firebase (Firestore)
 
-How It Works:
+## How It Works:
 
 - User must guess the correct translation of the missing word from four possible options
 - User clicks on the option they believe to be correct and presses 'check answer'
@@ -15,7 +15,7 @@ How It Works:
 - If they are incorrect, they will be shown the correct answer
 - There are 5 exercises in total. When the last has been shown, it resets back to the first exercise.
 
-Things I would like to improve with more time:
+## Things I would like to improve with more time:
 
 - Style
 
