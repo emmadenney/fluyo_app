@@ -1,4 +1,4 @@
-# Fill in the missing word game!
+# Fill in the missing word game!
 
 ## Tech Stack:
 
