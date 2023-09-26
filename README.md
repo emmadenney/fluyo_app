@@ -1,4 +1,4 @@
-# Fluyo Coding Test
+### Fill in the missing word game!
 
 ## Tech Stack:
 
@@ -25,12 +25,8 @@
   - The styling needs tidying up in general with cleaner code, and there are some bits that aren't quite right such as:
     - Underline for the English word in question
     - Spacing between the options
-    - Colour gradient is missing
     - Selected option does not 'grey over' once selected
     - Options overall do not 'grey out' once 'check answer' has been pressed (although they do disable)
-    - Flag icon is missing
-
-- Functionality
 
   - Translation for German words in the sentence that are not missing - the user should be able to click on a word and see the English translation pop up above it
   - The button at the bottom should say 'continue' until the user selects an answer, then should change to 'check answer'
